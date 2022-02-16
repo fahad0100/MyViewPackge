@@ -12,7 +12,9 @@ public class MyView {
     var view = UIView()
     let sizeScreen = UIScreen.main.bounds
     
-   public init(){}
+   public init(){
+       print("here i am")
+   }
     
     public func position(x:CGFloat,y:CGFloat){
         view = UIView(frame: CGRect(x: x, y: y, width: sizeScreen.midX / 2, height: sizeScreen.midX / 2))
